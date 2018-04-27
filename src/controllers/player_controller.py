@@ -1,4 +1,4 @@
-from lilblib.models.player_model import PlayerModel
+from src.models.player_model import PlayerModel
 import hashlib
 import string
 import random

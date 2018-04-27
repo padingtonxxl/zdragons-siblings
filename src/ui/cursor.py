@@ -1,5 +1,5 @@
-from lilblib.ui.display_element import DisplayElement
-from lilblib.common.constants import *
+from src.ui.display_element import DisplayElement
+from src.common.constants import *
 from datetime import datetime
 
 

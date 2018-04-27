@@ -1,6 +1,6 @@
-from lilblib.runtime import Runtime
-from lilblib.ui.popup import PopUp
-from lilblib.controllers.screen_controller import *
+from src.runtime import Runtime
+from src.ui.popup import PopUp
+from src.controllers.screen_controller import *
 import pygame
 import sys
 

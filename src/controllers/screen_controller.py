@@ -1,10 +1,10 @@
-from lilblib.common.constants import *
-from lilblib.views.intro_view import IntroView
-from lilblib.views.start_view import StartView
-from lilblib.views.game_creation_view import GameCreationView
-from lilblib.controllers.game_controller import *
-from lilblib.ui.text_input import TextInput
-from lilblib.ui.popup import PopUp
+from src.common.constants import *
+from src.views.intro_view import IntroView
+from src.views.start_view import StartView
+from src.views.game_creation_view import GameCreationView
+from src.controllers.game_controller import *
+from src.ui.text_input import TextInput
+from src.ui.popup import PopUp
 from datetime import datetime
 import pygame
 

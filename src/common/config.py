@@ -1,4 +1,4 @@
-from lilblib.common.constants import *
+from src.common.constants import *
 import pygame
 
 

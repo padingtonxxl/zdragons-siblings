@@ -1,7 +1,7 @@
-from lilblib.views.view import View
-from lilblib.ui.window import Window
-from lilblib.common.constants import *
-from lilblib.ui.button import Button
+from src.views.view import View
+from src.ui.window import Window
+from src.common.constants import *
+from src.ui.button import Button
 
 
 class StartView(View):

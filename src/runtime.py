@@ -1,7 +1,7 @@
 import pymysql
-from lilblib.common.config import Config
-from lilblib.controllers.screen_controller import *
-import lilblib.controllers.screen_controller
+from src.common.config import Config
+from src.controllers.screen_controller import *
+import src.controllers.screen_controller
 
 
 class Runtime:
@@ -33,5 +33,5 @@ class Runtime:
     def set_current_screen(self, screen_name):
         self.current_screen = screen_name
         if self.current_screen not in self.screens:
-            screen_class = getattr(lilblib.controllers.screen_controller, self.current_screen)
+            screen_class = getattr(src.controllers.screen_controller, self.current_screen)
             self.screens[self.current_screen] = screen_class(self)

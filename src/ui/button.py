@@ -1,6 +1,6 @@
 import pygame
-from lilblib.ui.inputelement import InputElement
-from lilblib.common.constants import *
+from src.ui.inputelement import InputElement
+from src.common.constants import *
 
 
 class Button(InputElement):

@@ -1,5 +1,5 @@
-from lilblib.models.game_model import GameModel
-from lilblib.common.constants import *
+from src.models.game_model import GameModel
+from src.common.constants import *
 
 
 class GameController:

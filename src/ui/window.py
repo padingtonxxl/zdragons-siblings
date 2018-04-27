@@ -1,5 +1,5 @@
-from lilblib.ui.button import Button
-from lilblib.common.constants import *
+from src.ui.button import Button
+from src.common.constants import *
 import pygame
 
 

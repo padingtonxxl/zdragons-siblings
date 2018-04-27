@@ -1,5 +1,5 @@
-from lilblib.views.view import View
-from lilblib.ui.text_input import TextInput
+from src.views.view import View
+from src.ui.text_input import TextInput
 
 
 class GameCreationView(View):

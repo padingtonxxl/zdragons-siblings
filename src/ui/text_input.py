@@ -1,5 +1,5 @@
-from lilblib.ui.inputelement import InputElement
-from lilblib.ui.cursor import Cursor
+from src.ui.inputelement import InputElement
+from src.ui.cursor import Cursor
 
 
 class TextInput(InputElement):
