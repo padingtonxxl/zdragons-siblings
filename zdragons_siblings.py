@@ -1,5 +1,5 @@
-from lib.game_loop import *
-from lib.models.player_model import PlayerModel
+from lilblib.game_loop import *
+from lilblib.models.player_model import PlayerModel
 
 game = GameLoop()
 game.start()
